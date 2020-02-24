@@ -1,0 +1,27 @@
+program ex6p35 (input, output);
+var
+  h: char;
+  sign, s, t: integer;
+begin
+  writeln('____________________________________');
+  writeln('Mikhalyov Danila, group 112, ex 6.35');
+  writeln('____________________________________');
+  h := '+';
+  s := 0;
+  writeln('Enter the sequence of integers: a+-b+-c+-..+-n.');
+  repeat
+      if h = '+' then
+        sign := 1;
+      if h = '-' then
+        sign := -1;
+      t := 0;
+      read(h);
+      repeat
+        t := t * 10 + ord(h) - ord ('0');
+        read(h);
+      until (h = '+') or (h = '-') or (h = '.');
+      s := s + sign * t;
+  until h = '.';
+  writeln('Result: ', s);
+  readln;readln;
+end.

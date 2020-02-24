@@ -1,0 +1,24 @@
+A         4  5 10 13 17 
+ABS       1  18 
+B         4  5 11 13 15 
+BEGIN     1  6 
+CONST     1  2 
+ELSE      1  16 
+END       1  21 
+EPS       2  3 18 
+EX5P24    1  1 
+EXP       4  14 18 
+IF        1  14 
+INPUT     1  1 
+OUTPUT    1  1 
+PI        4  14 18 
+PROGRAM   1  1 
+READLN    1  20 
+REAL      1  5 
+REPEAT    1  12 
+SQR       4  14 18 
+THEN      1  14 
+UNTIL     1  18 
+VAR       1  4 
+WRITELN   4  7 8 9 19 
+X         15  5 13 14 15 17 18 19 
